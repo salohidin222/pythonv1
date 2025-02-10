@@ -38,3 +38,4 @@ extract_numbers()
 convert_to_days()
 print(cubes_dict())
 print(f"Сумма чисел от 1 до 50: {sum_numbers()}")
+
