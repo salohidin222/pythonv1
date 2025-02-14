@@ -44,5 +44,21 @@
 # filtered = filter(str.isdigit, list1) #('123', '3')
 # print(list(filtered))
 
-# print(list(filter(lambda x: x > 0, range(5))))
+# print(list(filter(lambda x: x > 0, range(5))))'
+
+
+# reduce - принимает функцию и последовательность, возвпащает 1 результат (передаваемая функция должга принимать 2 аргумента)
+
+# from functools import reduce
+
+# print(reduce(lambda x, y: x + y, [1, 2, 3, 4]))
+
+# ZTP
+
+# list1 = [1,2,3,4]
+# list2 = ['a', 'b', 'c', 'd']
+
+# Возведите во 2 степень числа из лист1
+# Сделайте строки верхним регистром в лист2
+# сделайте дикт1 при помощи зип и этих двух листов 
 
