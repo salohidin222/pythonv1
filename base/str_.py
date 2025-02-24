@@ -1,102 +1,102 @@
-# 'Строки(str)'
-# # #строки - не изменяемый тип данных , который предназначен для хранения текста (последоватльности символов ),заключенного в одинарные или двойные кавычки
+'Строки(str)'
+# строки - не изменяемый тип данных , который предназначен для хранения текста (последоватльности символов ),заключенного в одинарные или двойные кавычки
 
-# # # string1 = 'строка с одинарными кавычками '
-# # # string2 = "строка с двойными кавычками "
+#  string1 = 'строка с одинарными кавычками '
+# # string2 = "строка с двойными кавычками "
 
-# # # # error = 'не правильная строка'
+# # # error = 'не правильная строка'
 
-# # # string3 = "Don't"
+# # string3 = "Don't"
 
-# # # string4 = "Мой никнейм 'Salohidin' "
+# # string4 = "Мой никнейм 'Salohidin' "
 
-# # # string5 = '''
-# # # Привет 
-# # # как 
-# # # дела 
-# # # '''
+# # string5 = '''
+# # Привет 
+# # как 
+# # дела 
+# # '''
 
-# # # string6 = """Привет 
-# # # как 
-# # # ты 
-# # # """
+# # string6 = """Привет 
+# # как 
+# # ты 
+# # """
 
-# # # str7 = 'Привет' + ' ' + 'как дела?'
-# # # print(str7)
+# # str7 = 'Привет' + ' ' + 'как дела?'
+# # print(str7)
 
-# # # # Конкатинация - это склеиваеия строк
+# # # Конкатинация - это склеиваеия строк
 
-# # # str8 = 'Hi ' * 100
-# # # print(str8)
-
-
-# 'Экранизация'
-# # # '\n' - перенос на новую строку 
-# # print('hello world')# hello world
-# # print('hello\nworld')#hello 
-# #                      #world
-
-# # # '\t' - табуляция 
-# # print('hello\tworld') # hello   world
-
-# # 'Don\'t'
-
-# # print('Don\'t')
-# # print("Dont\"t")
+# # str8 = 'Hi ' * 100
+# # print(str8)
 
 
+'Экранизация'
+# # '\n' - перенос на новую строку 
+# print('hello world')# hello world
+# print('hello\nworld')#hello 
+#                      #world
 
-# #'\v' - перенос на новую строку со смещением на длину предудущей сроки
-# #  print('hello\vworld\metalabs')
+# # '\t' - табуляция 
+# print('hello\tworld') # hello   world
 
-# # '\r' - перенос каретки на начало строки
-# #print('Hello world\rGO')
+# 'Don\'t'
 
-# # 'Форматирование строк'
-# # title = 'iPhone 16'
-# # price = 150000
-# # message = f'Я купил {title} за {price} сом'
-# # print(message)
+# print('Don\'t')
+# print("Dont\"t")
 
-# # message2 = 'Я купил {} за {} сом'
-# # print(message2.format(price, title))
-# # print(message2.format('Samung Z Flip', 120000))
 
-# # message3 = 'Я купил %s за %s сом '
-# # print(message3 % (title, price))
+
+#'\v' - перенос на новую строку со смещением на длину предудущей сроки
+#  print('hello\vworld\metalabs')
+
+# '\r' - перенос каретки на начало строки
+#print('Hello world\rGO')
+
+# 'Форматирование строк'
+title = 'iPhone 16'
+price = 150000
+message = f'Я купил {title} за {price} сом'
+print(message)
+
+# message2 = 'Я купил {} за {} сом'
+# print(message2.format(price, title))
+# print(message2.format('Samung Z Flip', 120000))
+
+# message3 = 'Я купил %s за %s сом '
+# print(message3 % (title, price))
 
 
 # 'Методы строк '
 # # # методы - функции, которые относятся к определенному (типу данных ), к ним мы обращаемся через точку
-# #  str1 = 'hello'
-# #  print(str1.upper())
-# #  print('HELLO'.lower())
-# #  print('HeLlO'.swapcase())
-# #  print('hello world'.capitalize())
-# #  print('hello woRld'.title())
+# str1 = 'hello'
+# print(str1.upper())
+# print('HELLO'.lower())
+# print('HeLlO'.swapcase())
+# print('hello world'.capitalize())
+# print('hello woRld'.title())
 
-# # print(dir(str))
+# print(dir(str))
 
-# # print('hello'.center(11))
-# # print('hello'.center(11, '*'))
-# # print('hello world'.count('l'))
-# # print('hello world'.count('ll'))
-# # print('hello world'.count('ll'))
-# # print('hello world'.startswith('he'))
-# # print('hello world'.startswith('H'))
-# # print('hello world'.endswith('rld'))
-# # print('hello world'.endswith('gsd'))
-# # print('hello world'.islower())
-# # print('heLlo world'.islower())
-# # print('hello world'.isupper())
-# # print('Hello world'.isupper())
-# # print('HELLO WORLD'.isupper())
+# print('hello'.center(11))
+# print('hello'.center(11, '*'))
+# print('hello world'.count('l'))
+# print('hello world'.count('ll'))
+# print('hello world'.count('ll'))
+# print('hello world'.startswith('he'))
+# print('hello world'.startswith('H'))
+# print('hello world'.endswith('rld'))
+# print('hello world'.endswith('gsd'))
+# print('hello world'.islower())
+# print('heLlo world'.islower())
+# print('hello world'.isupper())
+# print('Hello world'.isupper())
+# print('HELLO WORLD'.isupper())
 
 
-# # print('hello world'.startswith('he'))
-# # print('hello world'.startswith('H'))
-# # print('hello world'.endswith('rld'))
-# # print('hello world'.endswith('gsd'))
+# print('hello world'.startswith('he'))
+# print('hello world'.startswith('H'))
+# print('hello world'.endswith('rld'))
+# print('hello world'.endswith('gsd'))
 # # print('hello world'.islower())
 # # print('heLlo world'.islower())
 # # print('hello world'.isupper())
